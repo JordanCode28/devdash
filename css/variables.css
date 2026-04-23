@@ -26,8 +26,8 @@
 --border: var(--border-width) solid var(--border-color);
 
 /* Shadows */
---shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
---shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
+--shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.6);
+--shadow-md: 0 4px 6px rgba(255, 255, 255, 0.221);
 
 /* Status colors */
 --color-success: #22c55e;
@@ -43,16 +43,25 @@
   --border-color:#374151;
 }
 
+[data-theme="alt"] {
+  --color-primary: #059669;
+  --color-secondary: #d97706;
+  --color-bg: #f0fdf4;
+  --color-text: #064e3b;
+  --color-card: #ffffff;
+  --border-color: #a7f3d0;
+}
+
 
 
 @media (max-width: 768px) {
   :root {
-   --color-primary: #059669;
-   --color-secondary: #d97706;
+   --color-primary: #0c5e44;
+   --color-secondary: #78470e;
    --color-bg: #f0fdf4;
-   --color-text: #064e3b;
+   --color-text: #1f7860;
    --color-card: #ffffff;
-   --border-color: #a7f3d0;
+   --border-color: #90c1aa;
   }
 
   [data-theme="dark"] {

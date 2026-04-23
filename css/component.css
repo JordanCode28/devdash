@@ -9,22 +9,22 @@
 }
 
 .button:hover {
-  opacity: 0.85;
+  opacity: 0.9;
   transform: translateY(-1px);
 }
 
 .card {
---card-padding: var(--spacing-md);
---card-radius: var(--radius);
---card-shadow: var(--shadow-sm);
---card-bg: var(--color-card);
+ --card-padding: var(--spacing-md);
+ --card-radius: var(--radius);
+ --card-shadow: var(--shadow-sm);
+ --card-bg: var(--color-card);
 
   background: var(--color-card);
   padding: var(--spacing-md);
   border-radius: var(--radius);
   border: var(--border);
   box-shadow: var(--shadow-sm);
-  transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.4s ease;
 }
 
 .card:hover {
